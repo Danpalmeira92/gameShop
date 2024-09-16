@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 /* Estilo 2 */
+header,
+section h2 {
+    font-family: "Bungee", sans-serif;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 header {
     padding: 16px 0;
     background-color: #182c61;
@@ -14,7 +23,11 @@ header {
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
+}
+header h1,
+section h2 {
+    font-weight: normal;
 }
 
 header nav li a {
